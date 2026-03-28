@@ -44,7 +44,6 @@ tbody tr:hover {
     font-size: 16px;
 }
 
-/* Container que centraliza o card na tela */
 .login-container {
     display: flex;
     justify-content: center; 
@@ -56,15 +55,13 @@ tbody tr:hover {
 
 .login-card {
     background: white;
-    padding: 40px;           /* Espaçamento interno do card */
-    border-radius: 10px;     /* Bordas arredondadas */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Sombra suave */
-    width: 100%;             /* Largura total do container pai */
-    max-width: 400px;        /* Limita a largura do card para telas maiores */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;          
+    max-width: 400px;       
 }
 
-/* Estilizando o título e o ícone */
-/* Estilização do Título e do Ícone */
 .login-header .logo-icon {
     font-size: 50px;
     color: #004a8d;
@@ -77,7 +74,6 @@ tbody tr:hover {
     margin: 0;
 }
 
-/* Estilização dos Inputs e do Botão */
 .form-group input {
     width: 100%;
     padding: 12px;

@@ -90,10 +90,9 @@ nav a:hover {
 }
 
 
-/* Formatação do formulário */
 .card-form {
     background: white;
-    max-width: 700px; /* Evita que o form fique muito largo em telas grandes */
+    max-width: 700px; 
     margin: 20px auto;
     padding: 30px;
     border-radius: 12px;
@@ -104,12 +103,12 @@ nav a:hover {
 
 .form-group {
     display: flex;
-    flex-direction: column; /* Label em cima, Input embaixo */
+    flex-direction: column;
     gap: 8px;
     margin-bottom: 20px;
 }
 
-.form-row { display: flex; gap: 20px; } /* Coloca dois campos lado a lado */
+.form-row { display: flex; gap: 20px; } 
 .flex-1 { flex: 1; }
 
 label { font-weight: bold; color: #2c3e50; font-size: 14px; }
@@ -156,7 +155,6 @@ input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0
     color: red;
 }
 
-/* Alinha o título de um lado e o botão do outro */
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -168,7 +166,6 @@ input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Estilo do Botão */
 .btn-add-user {
     background-color: #27ae60;
     color: white;
@@ -228,7 +225,6 @@ input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0
     border-radius: 6px;
 }
 
-/* Botão ajustado */
 .btn-login {
     width: 100%;
     padding: 12px;
