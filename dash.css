@@ -43,3 +43,63 @@ tbody tr:hover {
     cursor: pointer;
     font-size: 16px;
 }
+
+/* Container que centraliza o card na tela */
+.login-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    background-color: #f4f7f6;
+}
+
+
+.login-card {
+    background: white;
+    padding: 40px;           /* Espaçamento interno do card */
+    border-radius: 10px;     /* Bordas arredondadas */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Sombra suave */
+    width: 100%;             /* Largura total do container pai */
+    max-width: 400px;        /* Limita a largura do card para telas maiores */
+}
+
+/* Estilizando o título e o ícone */
+/* Estilização do Título e do Ícone */
+.login-header .logo-icon {
+    font-size: 50px;
+    color: #004a8d;
+    margin-bottom: 10px;
+}
+
+.login-header h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilização dos Inputs e do Botão */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Impede que o padding quebre o layout */
+}
+
+.btn-login {
+    background-color: #004a8d;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #003a70;
+}

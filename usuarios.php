@@ -1,9 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+<div class="dashboard-container">
+<?php include 'menu.php'; ?>
+
 <link rel="stylesheet" href="dash.css">
 
 <main>
-    <div class="header-content">
-        <h2>Gestão de Usuários</h2>
-        <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
+<div class="header-content">
+        <div>
+            <h2>Gestão de Usuários</h2>
+            <p>Visualize e gerencie as permissões dos usuários do sistema.</p>
+        </div>
+        <a href="cad-usuarios.php" class="btn-add-user">
+            <i class="fa-solid fa-user-plus"></i> Novo Usuário
+        </a>
     </div>
 
     <div class="table-responsive">
@@ -45,3 +63,9 @@
         </table>
     </div>
 </main>
+</div>
+<footer>
+    <?php include 'footer.php'; ?>
+</footer>
+</body>
+</html>

@@ -88,3 +88,161 @@ nav a:hover {
     background-color: #34495e;
     color: #ffcc00;
 }
+
+
+/* Formatação do formulário */
+.card-form {
+    background: white;
+    max-width: 700px; /* Evita que o form fique muito largo em telas grandes */
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.form-header { margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Label em cima, Input embaixo */
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-row { display: flex; gap: 20px; } /* Coloca dois campos lado a lado */
+.flex-1 { flex: 1; }
+
+label { font-weight: bold; color: #2c3e50; font-size: 14px; }
+
+input, select {
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+input:focus { border-color: #004a8d; outline: none; box-shadow: 0 0 0 3px rgba(0,74,141,0.1); }
+
+.btn-save {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-save:hover {
+    background-color: #2ecc71; 
+    box-shadow: 0 6px 12px rgba(39, 174, 96, 0.4);
+}
+
+.btn-cancel{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+
+}
+
+.btn-cancel:hover {
+    color: red;
+}
+
+/* Alinha o título de um lado e o botão do outro */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Estilo do Botão */
+.btn-add-user {
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-add-user:hover {
+    background-color: #2ecc71;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(39, 174, 96, 0.3);
+}
+
+.btn-add-user i {
+    font-size: 16px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100vw;
+    height: 100vh;
+    background-color: #dfdfdf; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-card {
+    background: white;
+    width: 100%;            
+    max-width: 350px;        
+    padding: 40px;           
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;      
+}
+
+
+.login-card .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-card input {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+}
+
+/* Botão ajustado */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+

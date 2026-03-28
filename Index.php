@@ -9,18 +9,8 @@
 
 
 <div class="dashboard-container">
-    <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Relatórios</a></li>
-            <li><a href="#">Configurações</a></li>
-        </ul>
-        <div class="perfil-usuario">
-            <img src="imagens/imagem1.png" alt="Avatar">
-            <span>Joao Pedro</span>
-        </div>
-    </nav>
+<?php include 'menu.php'; ?>
+
 
 
 
@@ -94,7 +84,7 @@
     </main>
 </div>
 <footer>
-    <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de Web I</p>
+    <?php include 'footer.php'; ?>
 </footer>
 </body>
 </html>
